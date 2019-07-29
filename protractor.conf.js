@@ -1,10 +1,12 @@
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
+var { After } = require('cucumber');
 
 exports.config = {
 
 		
-// Use below code to enable the browserstack integration and make sure to remove or comment capabilities and directConnect objects
+// Use below code to enable the browserstack integration and make sure to remove
+// or comment capabilities and directConnect objects
 /*
  * seleniumAddress: 'http://hub-cloud.browserstack.com/wd/hub', capabilities: {
  * 'browserstack.user': 'cignitidemo1', 'browserstack.key':
@@ -37,7 +39,7 @@ exports.config = {
 	},
 	
 	onComplete(){
-	console.log("------ on complete");
-	
+		browser.quit();
+		console.log("------ on complete");
 	}
 };

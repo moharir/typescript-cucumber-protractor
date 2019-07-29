@@ -13,7 +13,7 @@ public class ReportGeneration {
 	public void generateSummaryReport() {
 		File reportOutputDirectory = new File("target");
 		List<String> jsonFiles = new ArrayList<>();
-		File inputFiles = new File(System.getProperty("user.dir") + "/cucumber-report/protractorresult.json");
+		File inputFiles = new File(System.getProperty("user.dir") + "/cucumber-report");
 
 		for (File file : inputFiles.listFiles()) {
 			if (file.toString().endsWith(".json")) {
@@ -30,9 +30,9 @@ public class ReportGeneration {
 		configuration.addClassifications("Platform", System.getProperty("user.name"));
 		configuration.addClassifications("Browser", "Chrome");
 		configuration.addClassifications("Branch", "Demo/1.0");
-
+	
 		ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
 		Reportable result = reportBuilder.generateReports();
-
+		
 	}
 }
