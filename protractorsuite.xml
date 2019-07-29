@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Protractor Test Suite">
+	<test name="Verify Google Products Label" preserve-order="true">
+		<classes>
+			<class name="com.cigniti.runner.ProtractorRunner" />
+		</classes>
+	</test>
+</suite>

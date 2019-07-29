@@ -1,0 +1,71 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Protractor: Access Google's products page and verify the header",
+    "line": 1,
+    "id": "protractor:-access-google's-products-page-and-verify-the-header",
+    "tags": [],
+    "uri": "src/test/java/com/cigniti/features/app.feature",
+    "elements": [
+      {
+        "id": "protractor:-access-google's-products-page-and-verify-the-header;home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Home Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "src/test/java/com/cigniti/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the Our products tab",
+            "match": {
+              "location": "src/test/java/com/cigniti/steps/app.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the title",
+            "match": {
+              "location": "src/test/java/com/cigniti/steps/app.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
