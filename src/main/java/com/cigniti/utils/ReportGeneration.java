@@ -13,7 +13,7 @@ public class ReportGeneration {
 	public void generateSummaryReport() {
 		File reportOutputDirectory = new File("target");
 		List<String> jsonFiles = new ArrayList<>();
-		File inputFiles = new File(System.getProperty("user.dir") + "/cucumber-report/");
+		File inputFiles = new File(System.getProperty("user.dir") + "/cucumber-report/protractorresult.json");
 
 		for (File file : inputFiles.listFiles()) {
 			if (file.toString().endsWith(".json")) {

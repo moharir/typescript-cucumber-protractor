@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2384000000
+              "duration": 1646000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2194000000
+              "duration": 3514000000
             }
           },
           {
@@ -51,7 +51,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 548000000
+              "duration": 52000000
             }
           },
           {
@@ -61,7 +61,8 @@
               "location": "../../../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
